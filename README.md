@@ -2,7 +2,7 @@
 
 ## Demo
 
-[Click here to watch the demo](demo.mp4)
+[Click here to watch the demo](demo.webm)
 
 ## Overview
 
