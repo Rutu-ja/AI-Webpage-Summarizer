@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 400px; padding: 15px; }
+    #summary { 
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ddd;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+    button { width: 100%; padding: 8px; margin: 5px 0; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <button id="summarize">Summarize Page</button>
+  <div id="summary" class="hidden"></div>
+  <button id="download" class="hidden">Download Summary</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

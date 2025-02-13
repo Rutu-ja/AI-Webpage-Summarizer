@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Webpage Summarizer",
+  "version": "1.0",
+  "description": "Summarize a webpage using OpenAI and download as a .txt file",
+  "permissions": ["downloads", "activeTab", "scripting", "storage"],
+  "host_permissions": ["https://api.anthropic.com/*", "<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
