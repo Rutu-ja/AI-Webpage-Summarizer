@@ -1,9 +1,5 @@
 # Webpage Summarizer
 
-## Demo
-
-[Click here to watch the demo](demo.webm)
-
 ## Overview
 
 Webpage Summarizer is a Chrome extension that allows users to generate summaries of webpages using OpenAI and download the summary as a `.txt` file. This tool is useful for quickly extracting key information from articles, blog posts, and other web content.
